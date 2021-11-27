@@ -7,18 +7,16 @@
         <title>Todo App</title>
     </head>
     <body>
-        <div class="picture_info">
+        <header class="picture_info">
             <img src="./eisenhower-matrix.jpg">
             <a class="link_to_info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-        </div>
-        <div class="todo-page">
-            <p id="todo-adding-item">
-                <label for="new-task">Add Item</label>
-                <div class="task-row-wrapper">
-                    <input id="new-task" class="task" type="text">
-                    <button>Add</button>
-                </div>
-            </p>
+        </header>
+        <main class="todo-page">
+            <h2 for="new-task">Add Item</h2>
+            <div class="task-row-wrapper">
+                <input id="new-task" class="task" type="text">
+                <button>Add</button>
+            </div>
             <h3>Todo</h3>
             <ul id="incomplete_tasks">
                 <li>
@@ -52,7 +50,7 @@
                     </button>
                 </li>
             </ul>
-        </div>
+        </main>
         <script type="text/javascript" src="app.js"></script>
     </body>
 </html>
