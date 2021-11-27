@@ -16,7 +16,8 @@ body {
     width: 100%;
 }
 
-.picture_info .link_to_info {
+.picture_info 
+.link_to_info {
     font-family: fantasy, cursive;
 }
 
